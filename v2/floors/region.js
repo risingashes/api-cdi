@@ -1,12 +1,18 @@
 // GET /v2/continents/1/floors/1/regions/1
 {
+    "id": 1,
     "name" : "Shiverpeak Mountains",
     "label_coord" : [ 19840, 13568 ],
+    "continent_rect" : [
+        [ 19456, 14976 ],
+        [ 21760, 18176 ]
+    ],
     "maps" : {
         "26" : {
             "name" : "Dredgehaunt Cliffs",
             "min_level" : 40,
             "max_level" : 50,
+            "label_coord": [ 20000, 15000 ],
             "default_floor" : 1,
             "map_rect" : [
                 [-27648, -36864 ],
@@ -51,7 +57,8 @@
                 }
             },
             "skill_challenges" : [{
-                "coord" : [ 20381.6, 16613.8 ]
+                "coord" : [ 20381.6, 16613.8 ],
+                "id": "0-29"
             }],
             "sectors" : {
                 "526" : {

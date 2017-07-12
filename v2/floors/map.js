@@ -2,8 +2,10 @@
 {
     "name" : "Dredgehaunt Cliffs",
     "min_level" : 40,
+    "type" : "Public",
     "max_level" : 50,
     "default_floor" : 1,
+    "label_coord": [ 20000, 15000 ],
     "map_rect" : [
         [-27648, -36864 ],
         [ 27648, 39936 ]
@@ -12,6 +14,16 @@
         [ 19456, 14976 ],
         [ 21760, 18176 ]
     ],
+    "adventures": [ {
+        "coord": [
+            1234.1,
+            1348.3,
+            2948.9
+        ],
+        "id": "8D00FA87-28CD-4402-AAEF-501A610E0447",
+        "name": "Not a Real Adventure",
+        "description": "I just made this up"
+    } ],
     "points_of_interest" : {
         "1577" : {
             "name" : "Bear's Jaws Shrine",
@@ -47,7 +59,8 @@
         }
     },
     "skill_challenges" : [{
-        "coord" : [ 20381.6, 16613.8 ]
+        "coord" : [ 20381.6, 16613.8 ],
+        "id": "0-29"
     }],
     "sectors" : {
         "526" : {
@@ -57,5 +70,28 @@
             "id" : 526
         }
     },
+    "god_shrines": [{
+        "id": 5,
+        "name": "Temple of Melandru <c=#a9a9a9>[Uncontested]</c><br>• All Melandru statues in Orr are disabled.</c>",
+        "name_contested": "Temple of Melandru <c=#ff8c00>[Contested]</c><br>• All Melandru statues in Orr are active.",
+        "coord": [
+            11288.1,
+            26728.1
+        ],
+        "poi_id": 795,
+        "icon": "http://render...",
+        "icon_contested": "http://render..."
+    }],
     "id" : 26
 }
+
+// NOTES:
+// 
+// map.type may be one of the following values:
+//  * "Pvp"
+//  * "Instance"
+//  * "Public"
+//  * "Center" (EB)
+//  * "BlueHome", "RedHome", "GreenHome" (Borderlands)
+//  * "JumpPuzzle" (Obsidian Sanctum)
+//  * "EdgeOfTheMists"

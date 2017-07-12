@@ -3,6 +3,7 @@
     "texture_dims" : [ 32768, 32768 ],
     "regions" : {
         "1" : {
+	    "id": 1,
             "name" : "Shiverpeak Mountains",
             "label_coord" : [ 19840, 13568 ],
             "maps" : {
@@ -54,7 +55,8 @@
                         }
                     },
                     "skill_challenges" : [{
-                        "coord" : [ 20381.6, 16613.8 ]
+                        "coord" : [ 20381.6, 16613.8 ],
+                        "id": "0-29"
                     }],
                     "sectors" : {
                         "526" : {
